@@ -4,13 +4,13 @@
 Example usage of Apollo library for Android using Github API.
 
 This is simple example how to use GraphQL in Android using
-- default callbacks
-- RxJava2
-- Coroutines
+- default callbacks,
+- rxJava2,
+- coroutines.
 
 ## Setup
 
-- Replace `YOUR_GITHUB_API_KEY` with your github API key
+- Replace `YOUR_GITHUB_API_KEY` with your github API key inside app `build.gradle`
 
 ## Additional info
 
