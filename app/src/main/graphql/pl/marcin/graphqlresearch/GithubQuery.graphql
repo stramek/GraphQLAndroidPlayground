@@ -1,0 +1,16 @@
+query OrganizationRepositoryPullRequestsQuery($organizationName: String!, $repositoryName: String!, $pullRequestsCount: Int!) {
+  organization(login: $organizationName) {
+    name
+    repository(name: $repositoryName) {
+        name,
+        pullRequests(first: $pullRequestsCount) {
+            nodes {
+                title,
+                author {
+                    login
+                }
+            }
+        }
+    }
+  }
+}
